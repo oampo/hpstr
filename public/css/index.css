@@ -1,0 +1,16 @@
+body {
+    color: #1E2835;
+    background-color: #F8F8F8;
+}
+
+
+h1 {
+    background-color: #1E2835;
+    color: #F8F8F8;
+    margin: 0 0 1em 0;
+    padding: 1em 20px;
+}
+
+#content {
+    padding: 20px;
+}

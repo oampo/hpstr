@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>sgn up</h2>
+
+<form action="/add-user" method="POST" enctype="multipart/form-data"
+      class="pure-form pure-form-aligned">
+    <fieldset>
+        <div class="pure-control-group">
+            <label for="username">usrname</label>
+            <input type="text" name="username">
+        </div>
+
+        <div class="pure-control-group">
+            <label for="avatar">avatr</label>
+            <input type="file" name="avatar">
+        </div>
+        <div class="pure-controls">
+            <button type="submit" class="pure-button pure-button-primary">sgn up</button>
+        </div>
+    </fieldset>
+</form>
+{% endblock %}
